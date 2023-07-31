@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
+    <title>Frontend Mentor | Tip calculator app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wapper">
+      <img src="/images/logo.svg" alt="logo">
+      <div class="container">
+        <div class="container-informations">
+          <section class="section-bills">
+            <p class="categorie">Bill</p>
+            <div class="content-bills">
+              <img src="/images/icon-dollar.svg" alt="iconDollar" />
+              <input type="number" id="numberBill" />
+            </div>
+          </section>
+          <section class="section-tips">
+            <p class="categorie">Select Tip %</p>
+            <button id="tip05">5%</button>
+            <button id="tip10">10%</button>
+            <button id="tip15">15%</button>
+            <button id="tip25">25%</button>
+            <button id="tip50">50%</button>
+            <input type="text" id="customTip" placeholder="custom" />
+          </section>
+          <section class="section-peoples">
+            <p class="categories">Number of People</p>
+            <span id="notZero">Can't be 0</span>
+            <div class="content-bills">
+              <img src="/images/icon-person.svg" alt="iconPerson" />
+              <input type="number" id="nunberPeoples" />
+            </div>
+          </section>
+        </div>
+
+        <div class="container-results">
+          <div class="results-tip-amount">
+            <div class="result-details">
+              <h2 class="title-results">Tip Amount</h2>
+              <p class="paraghapy-results">/ person</p>
+            </div>
+          </div>
+          <div class="results-total">
+            <div class="result-details">
+              <h2 class="title-results">Total</h2>
+              <p class="paraghapy-results">/ person</p>
+            </div>
+          </div>
+          <button type="reset" id="reset">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
