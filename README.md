@@ -4,8 +4,8 @@ Esta é uma solução para [Tip calculator app]().Os desafios do Frontend Mentor
 
 ## Links
 
-- Solution URL: [Click me!](https://www.frontendmentor.io/solutions/responsive-results-summary-component-bENknSCdx6)
-- Live Site URL: [Click me!](https://results-summary-component-math.netlify.app/)
+- Solution URL: [Click me!](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX/hub)
+- Live Site URL: [Click me!](https://tipcalculatorapp-math.netlify.app)
 
 ## Author
 
