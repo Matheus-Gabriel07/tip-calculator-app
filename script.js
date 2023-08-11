@@ -24,6 +24,11 @@ tip50.addEventListener("click", function () {
   calculatePorcentage(50);
 });
 
+const custom = document.querySelector("#customTip");
+custom.addEventListener("input", function () {
+  calculatePorcentage(custom.value);
+});
+
 // Função para calcular a porcentagem
 function calculatePorcentage(tipPercentage) {
   const inputBill = document.querySelector("#numberBill");
